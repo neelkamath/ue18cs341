@@ -6,13 +6,12 @@ These are my assignments for [PESU](https://pes.edu/)'s UE18CS341 (Design Patter
 
 1. Install either g++ or Docker.
 1. Clone the repo using one of the following methods:
-    - SSH: git clone git@github.com:neelkamath/ue18cs331.git
-    - HTTPS: git clone https://github.com/neelkamath/ue18cs331.git
+    - SSH: `git clone git@github.com:neelkamath/ue18cs341.git`
+    - HTTPS: `git clone https://github.com/neelkamath/ue18cs341.git`
 
 ## Usage
 
 1. If you're using Docker instead of a local g++ installation, run: `docker-compose run --rm ubuntu`
-    ```
 1. Run the programs in the `src` directory. For example:
     ```
     cd src/unit-1/assignment-1/question-1 && gcc *.c && ./a.out
