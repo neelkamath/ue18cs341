@@ -8,13 +8,10 @@ These are my assignments for [PESU](https://pes.edu/)'s UE18CS341 (Design Patter
 1. Clone the repo using one of the following methods:
     - SSH: git clone git@github.com:neelkamath/ue18cs331.git
     - HTTPS: git clone https://github.com/neelkamath/ue18cs331.git
-1. If you're using Docker, run `cd ue18cs341 && docker build -t ue18cs341 .`.
 
 ## Usage
 
-1. If you're using Docker instead of a local g++ installation, run:
-    ```
-    docker run --rm -it --mount type=bind,src=$PWD,dst=/app ue18cs341
+1. If you're using Docker instead of a local g++ installation, run: `docker-compose run --rm ubuntu`
     ```
 1. Run the programs in the `src` directory. For example:
     ```
