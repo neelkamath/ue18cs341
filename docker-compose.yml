@@ -8,3 +8,4 @@ services:
       - type: bind
         source: $PWD
         target: /app
+        consistency: cached # Prevents Docker for Mac bind mounts from being unusably slow.

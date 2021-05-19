@@ -20,7 +20,7 @@ These are my assignments for [PESU](https://pes.edu/)'s UE18CS341 (Design Patter
 
 ## Contributing
 
-The src directory uses the format unit-<UNIT_NUMBER>/assignment-<ASSIGNMENT_NUMBER>/question-<QUESTION_NUMBER> (e.g., unit-1/assignment-1/question-1). Each question must have the file containing the program's entrypoint have the question at the top of the file in a comment.
+The src directory uses the format `unit-<UNIT_NUMBER>/assignment-<ASSIGNMENT_NUMBER>/question-<QUESTION_NUMBER>` (e.g., `unit-1/assignment-1/question-1`). Each question must have the file containing the program's entrypoint have the question at the top of the file in a comment.
 
 ## License
 
